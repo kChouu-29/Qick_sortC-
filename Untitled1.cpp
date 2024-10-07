@@ -23,7 +23,7 @@ vector<int> Quick_Sort(vector<int> arr){
 	return left;
 }
 int main(){
-	vector<int> m []= {2, 3, 4, 5, 6, 71, 2, 3, -1};
+	vector<int> m = {2, 3, 4, 5, 6, 71, 2, 3, -1};
 	vector<int> sort=Quick_Sort(m)
 	for(int i=0;i<sort.size();i++){
 		cout<<sort[i]<<" "
